@@ -33,8 +33,8 @@ FULL_PATH_NAMES        = YES
 STRIP_FROM_PATH        =
 STRIP_FROM_INC_PATH    =
 SHORT_NAMES            = NO
-JAVADOC_AUTOBRIEF      = NO
-JAVADOC_BANNER         = NO
+JAVADOC_AUTOBRIEF      = YES
+JAVADOC_BANNER         = YES
 QT_AUTOBRIEF           = NO
 MULTILINE_CPP_IS_BRIEF = NO
 PYTHON_DOCSTRING       = YES
@@ -147,7 +147,7 @@ FORTRAN_COMMENT_AFTER  = 72
 #---------------------------------------------------------------------------
 # Configuration options related to source browsing
 #---------------------------------------------------------------------------
-SOURCE_BROWSER         = NO
+SOURCE_BROWSER         = YES
 INLINE_SOURCES         = NO
 STRIP_CODE_COMMENTS    = NO
 REFERENCED_BY_RELATION = NO
@@ -175,7 +175,7 @@ HTML_HEADER            = header.html
 HTML_FOOTER            =
 HTML_STYLESHEET        =
 HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css doxygen-awesome-css/doxygen-awesome-sidebar-only.css doxygen-awesome-css/doxygen-awesome-sidebar-only-darkmode-toggle.css catppuccin.css
-HTML_EXTRA_FILES       = doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js
+HTML_EXTRA_FILES       = doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js  doxygen-awesome-css/doxygen-awesome-fragment-copy-button.js doxygen-awesome-css/doxygen-awesome-paragraph-link.js doxygen-awesome-css/doxygen-awesome-tabs.js /home/crossscar/profile.png
 HTML_COLORSTYLE        = LIGHT
 HTML_COLORSTYLE_HUE    = 217
 HTML_COLORSTYLE_SAT    = 92

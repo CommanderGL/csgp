@@ -29,6 +29,10 @@ html {
   --fragment-foreground: #5c5f77;
 
   --side-nav-background: #dce0e8;
+
+  --warning-color: hsl(41deg, 86%, 83%);
+  --warning-color-dark: hsl(35deg, 77%, 65%);
+  --warning-color-darker: hsl(35deg, 77%, 25%);
 }
 
 html.dark-mode {
@@ -40,8 +44,26 @@ html.dark-mode {
   --page-foreground-color: #cdd6f4;
   --page-secondary-foreground-color: #bac2de;
 
-  --fragment-background: #24273a;
-  --fragment-foreground: #cad3f5;
-
   --side-nav-background: #24273a;
+
+  --warning-color: hsl(41deg, 25%, 20%);
+  --warning-color-dark: hsl(45deg, 77%, 49%);
+  --warning-color-darker: hsl(35deg, 77%, 65%);
+
+  --note-color: hsl(199deg, 76%, 15%);
+  --note-color-dark: hsl(199deg, 45%, 40%);
+  --note-color-darker: #cdd6f4;
+
+  --code-background: #1e1e2e;
+  --fragment-background: #1e1e2e;
+  --fragment-foreground: #cdd6f4;
+  --fragment-keyword: #cba6f7;
+  --fragment-keywordtype: #f9e2af;
+  --fragment-keywordflow: #cba6f7;
+  --fragment-token: #cba6f7;
+  --fragment-comment: #9399b2;
+  --fragment-link: #89b4fa;
+  --fragment-preprocessor: #f38ba8;
+  --fragment-linenumber-color: #7f849c;
+  --fragment-linenumber-background: #1e1e2e;
 }
