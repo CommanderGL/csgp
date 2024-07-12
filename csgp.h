@@ -1,4 +1,5 @@
 #include "csgp_config.h"
+#include "csgp_supported.h"
 
 #ifndef CSGP_H
 #define CSGP_H
@@ -24,6 +25,10 @@ void csgp_declareUpdate(void (*cb)(unsigned int delta));
 #define BIT_AT(x, n) ((x >> n) & 1)
 #define CONFIG_CHECK(option) \
   (BIT_AT(CSGP_CONFIG, option) == 1 && BIT_AT(CSGP_SUPPORTED, option) == 0)
+
+#if CSGP_REQUIRED_IMPL_LEVEL > CSGP_SUPPORTED_IMPL_LEVEL
+#error "Implementation level is unsupported."
+#endif
 
 #if CONFIG_CHECK(0)
 #error "Multi Window unsupported."

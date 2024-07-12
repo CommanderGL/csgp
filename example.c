@@ -1,7 +1,14 @@
+#define CSGP_REQUIRED_IMPL_LEVEL 1
 #include "csgp.h"
+
+void update(unsigned int delta) {
+
+}
 
 int main() {
   csgp_init();
-  /* code goes here */
+  
+  csgp_declareUpdate(update);
+
   csgp_destroy();
 }
